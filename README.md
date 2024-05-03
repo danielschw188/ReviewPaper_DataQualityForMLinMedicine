@@ -17,3 +17,6 @@ Run get_xlsx.py
 python3 get_uniqe_xlsx.py --path_acm_enw acm.enw --path_pubmed pb.xlsx --path_webofscience wos.xls --path_concatenated cc.xlsx --path_concatenated_unique_doi uniquedoi.xlsx --path_concatenated_unique_titles uniquetitles.xlsx --path_concatenated_unique_doi_unique_titles uniquedoiuniquetitles.xlsx
 ```
 ## Figure 2 - Corpus records sorted by publication date + grouped by categories and (non-) life science
+1) Open fig_2_dotplots.R (e.g., in RStudio)
+2) Edit the path to your directory conatinint the script and provenance_corpus_papers.xlsx.
+3) Execute the code to reproduce Figure 2
